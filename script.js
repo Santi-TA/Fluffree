@@ -80,7 +80,7 @@ document.getElementById('resetPasswordBtn').addEventListener('click', () => {
 
   sendPasswordResetEmail(auth, email)
     .then(() => {
-      alert("Se ha enviado un correo para restablecer tu contraseña.");
+      alert("En caso de estar registrado, recibirás un correo para restablecer tu contraseña.");
     })
     .catch((error) => {
       console.error("Error al enviar el correo:", error.message);
