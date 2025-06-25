@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fluffree</title>
+  <link rel="icon" type="image/png" href="./logocabecera.png"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+      color: #2c3e50;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2em;
+      text-align: center;
+    }
+    main img {
+      max-width: 400px;
+      margin-bottom: 1.5em;
+    }
+    main p {
+      max-width: 800px;
+      font-size: 1.6em;
+      margin-bottom: 1.5em;
+      line-height: 1.6;
+    }
+    a.button {
+      display: inline-block;
+      background: #17c59f;
+      color: white;
+      padding: 0.9em 2em;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.3em;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+    a.button:hover {
+      background: #178d5c;
+      transform: translateY(-2px);
+    }
+    footer {
+      background-color: #f0f0f0;
+      padding: 1em;
+      text-align: center;
+      font-size: 0.95em;
+      color: #666;
+      border-top: 1px solid #ddd;
+    }
+    footer a {
+      color: #3498db;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <img src="Logo.png" alt="Logo">
+    <p>
+      Bienvenido a nuestra plataforma de gestión de reservas para zonas caninas. Aquí podrás reservar franjas horarias en espacios especialmente acondicionados para el disfrute de tu perro.
+      <br><br>Nuestra aplicación permite a los usuarios:
+      <ul style="text-align: left; max-width: 800px; margin: 0 auto; font-size: 1.4em; line-height: 1.7;">
+        <li>Seleccionar fácilmente la fecha, zona y hora deseada para la reserva.</li>
+        <li>Recibir un código QR único para acceder a la zona reservada.</li>
+        <li>Informar desperfectos o problemas encontrados, adjuntando fotos si es necesario.</li>
+        <li>Unirse a reservas grupales para compartir espacio con otros dueños y perros.</li>
+        <li>Entrar en una lista de espera y ser notificado si queda libre una franja ocupada.</li>
+      </ul>
+    </p>
+    <a class="button" href="inicio.html">Acceso a Usuarios</a>
+  </main>
+  <footer>
+    ¿Tienes alguna duda? <a href="mailto:fluffree.reservacanina@gmail.com">Contáctanos</a>
+  </footer>
+</body>
+</html>
